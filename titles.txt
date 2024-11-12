@@ -1,0 +1,22 @@
+Optimizing Code in Java
+Fine-Tuning Mistral LLMs
+Storage Solutions in AWS S3
+Database Solutions in AWS RDS
+Educational Quiz Bot
+Intermediate Java
+Classifying Emails using Llama
+Designing Scalable AI Systems
+Importing Data in Java
+Compute Solutions in AWS EC2
+Advanced Probability & Distributions: Modeling Uncertainty in Data
+Multi-Modal Models with Hugging Face
+Data Transformation with SparkSQL in DataBricks
+ Insurance Claim Processing
+ChatGPT for Marketers Case Study
+Generative AI with Databricks
+Network Solutions in AWS
+ Data Validation in Excel
+ Data Pipelines in DataBricks
+Introduction to Polars
+Introduction to Testing in Java
+Introduction to Amazon Bedrock 
