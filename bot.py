@@ -66,13 +66,15 @@ async def send_new_title_notification(new_titles, data):
     bot = Bot(token=BOT_TOKEN)
     if new_titles:
         await bot.send_message(chat_id=CHAT_ID, text=message, parse_mode='HTML')
+    else:
+        await bot.send_message(chat_id=CHAT_ID, text="No new titles found", parse_mode='HTML')
 
 async def main():
     print(time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))
     data = fetch_spreadsheet_data()
     print("Data fetched successfully.")
     new_titles = get_new_titles(data)
-    print("New titles found")
+    print("New titles scanned")
     await send_new_title_notification(new_titles, data)
     print("Message sent")
 
